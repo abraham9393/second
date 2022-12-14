@@ -24,7 +24,7 @@ class ModScreen extends Component {
     return (
       <Modal visible={this.props.visibleMod}>
         <LinearGradient
-          colors={["red", "yellow"]}
+          colors={["orange", "yellow"]}
         >
           <ImageBackground source={require("./background.png")} style={styles.imagBack}  >
             <View style={{ flex: 1, alignItems: "center", paddingTop: 50 }}>
